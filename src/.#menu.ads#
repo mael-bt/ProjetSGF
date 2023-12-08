@@ -1,0 +1,15 @@
+-- Menu ADS --
+with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
+with SGF;
+
+package menu is
+
+         -- Nom : menu_sgf
+         -- Sémantique : Cette procedure permet d'afficher le menu et d'utiliser le sgf
+         -- Paramètres : /
+         -- Résultat : /
+         -- Pré : /
+         -- Post : /
+         -- Exception : /
+
+         procedure menu_sgf;

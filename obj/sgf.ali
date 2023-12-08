@@ -1,0 +1,397 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_ANONYMOUS_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U sgf%b			sgf.adb			43a04acf OO PK IU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W arbre%s		arbre.adb		arbre.ali  ED
+W pile_generique%s	pile_generique.adb	pile_generique.ali  ED
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U sgf%s			sgf.ads			f0fad68c EE OO PK IU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+Z ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_deallocation%s
+W arbre%s		arbre.adb		arbre.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-charac.ads		20210520051127 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210520051127 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051127 bf4f806b ada.finalization%s
+D a-flteio.ads		20210520051127 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20210520051127 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-strmap.ads		20210520051128 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20210520051128 03325227 ada.strings.unbounded%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051129 fcca4daa ada.text_io.float_io%s
+D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051129 c3a8ac65 ada.unchecked_deallocation%s
+D arbre.ads		20230128125930 e5f22709 arbre%s
+D arbre.adb		20230131151527 11395d6a arbre%b
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D pile_generique.ads	20230128125930 3bb5a1a6 pile_generique%s
+D pile_generique.adb	20230128125930 87eb703e pile_generique%b
+D sgf.ads		20230131214539 163aa3a2 sgf%s
+D sgf.adb		20230131214609 31da268c sgf%b
+D system.ads		20210520051134 a2da961d system%s
+D s-atocou.ads		20210520051131 b45c2d8d system.atomic_counters%s
+D s-conca3.ads		20210520051131 0b705ca5 system.concat_3%s
+D s-conca4.ads		20210520051131 7e642b20 system.concat_4%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-finmas.ads		20210520051131 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051131 4ff27390 system.finalization_root%s
+D s-imagei.ads		20210520051132 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051132 bdb6f5ec system.img_int%s
+D s-memory.ads		20210520051132 597d6634 system.memory%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-pooglo.ads		20210520051133 ede33ef8 system.pool_global%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stalib.adb		20210520051133 977290bf system.standard_library%b
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051133 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20210520051133 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20210520051133 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c b b b [b sgf 10 1 none]
+G c s s s [s sgf 5 1 none]
+G c Z s b [isegaux sgf 31 19 none]
+G c Z s s [dossiers_fichiersDI sgf 7 15 none]
+G c Z s s [dossiers_fichiersDA sgf 7 15 none]
+G c Z s s [dossiers_fichiersDF sgf 7 15 none]
+G c Z s s [dossiers_fichiersIP sgf 7 15 none]
+G c Z s s [initialiser sgf__sgf_arbre 21 20 33_10]
+G c Z s s [arbre_est_vide sgf__sgf_arbre 32 19 33_10]
+G c Z s s [valeur_racine sgf__sgf_arbre 43 19 33_10]
+G c Z s s [arbre_sans_fils sgf__sgf_arbre 54 19 33_10]
+G c Z s s [rechercher sgf__sgf_arbre 67 19 33_10]
+G c Z s s [est_racine sgf__sgf_arbre 78 19 33_10]
+G c Z s s [modifier sgf__sgf_arbre 90 20 33_10]
+G c Z s s [inserer_fils sgf__sgf_arbre 116 20 33_10]
+G c Z s s [supprimer sgf__sgf_arbre 128 20 33_10]
+G c Z s s [inserer_element sgf__sgf_arbre 139 19 33_10]
+G c Z s s [retourne_pere sgf__sgf_arbre 151 19 33_10]
+G c Z s s [retour_fils_ainee sgf__sgf_arbre 175 19 33_10]
+G c Z s s [noeudDI sgf__sgf_arbre 186 15 33_10]
+G c Z s s [noeudDA sgf__sgf_arbre 186 15 33_10]
+G c Z s s [noeudDF sgf__sgf_arbre 186 15 33_10]
+G c Z s s [noeudIP sgf__sgf_arbre 186 15 33_10]
+G c Z s s [free sgf__sgf_arbre 10 20 33_10]
+G c Z s b [formatage_disque sgf 45 20 none]
+G c Z s b [repertoire_travail sgf 57 20 none]
+G c Z s b [creation_fichier sgf 70 20 none]
+G c Z s b [creation_dossier sgf 83 20 none]
+G c Z s b [taille_fichier sgf 96 19 none]
+G c Z s b [navigation sgf 111 19 none]
+G c Z s b [affichage_dossier_courant sgf 124 20 none]
+G c Z s b [affichage_modif_droits sgf 136 20 none]
+G c Z s b [suppression_fichier sgf 150 20 none]
+G c Z s b [suppression_dossier sgf 163 20 none]
+G c Z s b [deplacer sgf 178 20 none]
+G c Z s b [copie_dossier_fichier sgf 193 20 none]
+G c Z s b [afficher_arborescence sgf 204 20 none]
+G c Z b b [affiche_sgf_string sgf 12 20 none]
+G c Z b b [empiler sgf__pile_gen 28 20 17_10]
+G c Z b b [depiler sgf__pile_gen 39 19 17_10]
+G c Z b b [sommet sgf__pile_gen 50 19 17_10]
+G c Z b b [est_vider sgf__pile_gen 61 19 17_10]
+G c Z b b [element_pileDI sgf__pile_gen 8 15 17_10]
+G c Z b b [element_pileDA sgf__pile_gen 8 15 17_10]
+G c Z b b [element_pileDF sgf__pile_gen 8 15 17_10]
+G c Z b b [element_pileIP sgf__pile_gen 8 15 17_10]
+G c Z b b [pileIP sgf__pile_gen 13 15 17_10]
+G c Z b b [afficher_filsR sgf__afficher_filsGP555 20 20 none]
+G c Z b b [afficher_fils sgf 20 20 none]
+G c Z b b [afficher_genR sgf__afficher_genGP672 22 20 none]
+G c Z b b [afficher_gen sgf 22 20 none]
+G r i none [b sgf 10 1 none] [pile_generique standard 6 9 none]
+G r i none [s sgf 5 1 none] [arbre standard 7 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 27|3r6 3r33 28|3r6 3r23 4r6 4r31 5r6 5r29 6r6 6r33
+X 6 a-flteio.ads
+20K13*Float_Text_IO[17|46] 28|5w10 5r33
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[18|46] 28|4w10 4r35
+X 10 a-string.ads
+16K13*Strings 35e16 27|3r10 3r37 28|6r10 6r37
+X 13 a-strunb.ads
+83K21*Unbounded 765e26 27|3w18 3r45 28|6w18 6r45
+88R9*Unbounded_String<5|43R9> 744e15 27|9r25 11r28 57r82 70r80 70r116 83r80
+. 83r116 96r77 111r73 124r56 136r53 150r50 163r50 178r82 178r119 193r52 193r88
+. 28|17r49 33r82 68r80 68r115 91r73 115r56 131r50 151r50 176r80 176r116 200r82
+. 200r119 236r77 252r53 255r32 286r52 286r88
+104V13*To_Unbounded_String{88R9} 28|27s28 78s31 186s31 274s51 278s51
+117V13*To_String{string} 28|14s28 63s32 106s70 266s32 266s91
+239V14*"="{boolean} 28|318s32
+245V14*"="{boolean} 28|59s37
+X 16 a-textio.ads
+58K13*Text_IO 725e16 28|3w10 3r27
+262U14*New_Line 28|268s19
+463U14*Put 28|60s37 63s28 266s28
+479U14*Get_Line 28|270s19
+493V13*Get_Line{string} 28|274s71 278s71
+506U14*Put_Line 28|14s19 106s46 269s19 273s37 277s37
+X 21 arbre.ads
+5V24 isEqual{boolean} 27|33r60
+7k9*arbre 192e10 27|4w6 33r35 28|7w6
+9P15*arbre 27|45r67[33] 57r65[33] 70r63[33] 83r63[33] 96r60[33] 111r56[33]
+. 111r108[33] 124r100[33] 136r97[33] 150r98[33] 163r98[33] 178r59[33] 193r132[33]
+. 204r68[33] 28|24r67[27|33] 33r65[27|33] 35r36[27|33] 68r63[27|33] 69r44[27|33]
+. 91r56[27|33] 91r108[27|33] 93r36[27|33] 94r35[27|33] 115r100[27|33] 117r33[27|33]
+. 131r98[27|33] 133r42[27|33] 151r98[27|33] 153r42[27|33] 171r68[27|33] 176r63[27|33]
+. 179r44[27|33] 200r59[27|33] 201r42[27|33] 202r36[27|33] 203r36[27|33] 236r60[27|33]
+. 238r36[27|33] 252r97[27|33] 253r36[27|33] 286r132[27|33] 287r43[27|33]
+. 288r36[27|33]
+21U20*initialiser 28|29s19[27|33]
+21p33 Abr{9P15[27|33]} 28|29r31[27|33]
+32V19*arbre_est_vide{boolean} 28|39s26[27|33] 43s35[27|33] 83s26[27|33] 97s22[27|33]
+. 105s40[27|33] 122s26[27|33] 138s22[27|33] 158s22[27|33] 191s26[27|33] 211s22[27|33]
+. 217s31[27|33] 262s22[27|33] 295s22[27|33] 301s31[27|33]
+32p35 Abr{9P15[27|33]} 28|39r41[27|33] 43r50[27|33] 83r41[27|33] 97r37[27|33]
+. 105r55[27|33] 122r41[27|33] 191r41[27|33] 211r37[27|33] 217r46[27|33] 262r37[27|33]
+. 295r37[27|33] 301r46[27|33]
+43V19*valeur_racine{27|7R15} 28|141s33[27|33] 161s33[27|33] 243s24[27|33]
+. 265s33[27|33]
+43p34 Abr{9P15[27|33]} 28|141r47[27|33] 161r47[27|33] 243r38[27|33] 265r47[27|33]
+54V19*arbre_sans_fils{boolean} 28|100s31[27|33] 221s44[27|33]
+54p36 Abr{9P15[27|33]} 28|100r47[27|33] 221r60[27|33]
+67V19*Rechercher{9P15[27|33]} 28|41s36[27|33] 51s45[27|33] 80s28[27|33] 103s45[27|33]
+. 120s24[27|33] 136s33[27|33] 156s33[27|33] 188s28[27|33] 209s33[27|33] 215s36[27|33]
+. 222s60[27|33] 241s27[27|33] 260s27[27|33] 293s28[27|33] 299s36[27|33] 305s46[27|33]
+67p31 Abr{9P15[27|33]} 28|41r47[27|33] 51r56[27|33] 80r39[27|33] 103r56[27|33]
+. 120r35[27|33] 136r44[27|33] 156r44[27|33] 188r39[27|33] 209r44[27|33] 215r47[27|33]
+. 222r71[27|33] 241r38[27|33] 260r38[27|33] 293r39[27|33] 299r47[27|33] 305r57[27|33]
+67r48 element{27|7R15} 28|42r47[27|33] 52r56[27|33] 81r39[27|33] 104r56[27|33]
+. 121r35[27|33] 137r44[27|33] 157r44[27|33] 189r39[27|33] 210r44[27|33] 216r47[27|33]
+. 223r71[27|33] 242r38[27|33] 261r38[27|33] 294r39[27|33] 300r47[27|33] 306r57[27|33]
+78V19*est_racine{boolean} 28|47s38[27|33]
+78p31 Abr{9P15[27|33]} 28|47r49[27|33]
+102U34 afficher_generique 28|22r59[27|33]
+103u20*afficher 28|22r50[27|33]
+116U20*inserer_fils 28|84s28[27|33] 192s28[27|33] 224s46[27|33] 231s28[27|33]
+. 307s37[27|33] 309s37[27|33]
+116p34 Abr{9P15[27|33]} 28|84r41[27|33] 192r41[27|33] 224r59[27|33] 231r41[27|33]
+. 307r50[27|33] 309r50[27|33]
+116p55 Abr_inseree{9P15[27|33]} 28|85r41[27|33] 193r41[27|33] 225r59[27|33]
+. 232r41[27|33] 308r50[27|33] 310r50[27|33]
+128U20*supprimer 28|143s37[27|33] 163s37[27|33] 227s46[27|33]
+128p31 Abr{9P15[27|33]} 28|143r47[27|33] 163r47[27|33] 227r56[27|33]
+128r52 donnee{27|7R15} 28|144r47[27|33] 164r47[27|33] 228r56[27|33]
+139V19*inserer_element{9P15[27|33]} 28|30s32[27|33] 79s28[27|33] 187s28[27|33]
+. 220s45[27|33] 304s45[27|33]
+139r36 donnee{27|7R15} 28|30r48[27|33] 79r44[27|33] 187r44[27|33] 220r61[27|33]
+151V19*retourne_pere{27|7R15} 28|48s42[27|33]
+151p34 Abr{9P15[27|33]} 28|48r56[27|33]
+163U34 afficher_generique 28|20r65[27|33]
+164u20*retourne_fils 28|20r51[27|33]
+175V19*retour_fils_ainee{27|7R15} 28|223s82[27|33] 306s68[27|33]
+175p38 Abr{9P15[27|33]} 28|223r100[27|33]
+179X10*arbre_vide 28|55r34[27|33] 98r34[27|33] 125r34[27|33]
+X 25 pile_generique.ads
+6k9*Pile_Generique 67e19 28|8w6 17r34
+13R15*Pile 28|36r35[17]
+28U20 Empiler 28|44s37[17] 49s37[17]
+28r29 P{13R15[28|17]} 28|44r46[17] 49r45[17]
+28r47 V{13|88R9} 28|45r46[17] 50r45[17]
+39V19 Depiler{13|88R9} 28|62s37[17]
+39r28 P{13R15[28|17]} 28|62r45[17]
+61V19 Est_Vider{boolean} 28|58s29[17]
+61r30 P{13R15[28|17]} 28|58r39[17]
+X 27 sgf.ads
+5K9*SGF 208l5 208e8 28|10b14 322l5 322t8
+7R15*dossiers_fichiers 12e20 31r35 31r62 33r41 28|12r47 25r23 34r23 70r23
+. 71r23 92r23 116r23 132r23 152r23 177r23 178r23 204r23 205r23 237r23 254r23
+. 289r23 290r23 316r35 316r62
+8b19*isdossier{boolean} 28|28m21 77m21 142r33 162r33 185m21 244r24 272r33
+. 276r36
+9r19*nom{13|88R9} 28|14r40 27m21 38m21 45r53 50r52 59r33 62m30 63r44 73m21
+. 75m21 96m21 119m21 135m21 155m21 181m21 183m21 208m21 214m30 240m21 259m21
+. 266r103 292m21 298m30 318r28 318r36
+10i19*taille{integer} 28|76m21 184m21 245r37 266r70
+11r19*droits{13|88R9} 28|78m21 186m21 266r44 275m39 279m39
+14X10*est_fichier 28|101r43 166r43
+15X10*est_dossier 28|146r43 247r34
+16X10*dossier_manquant 28|87r34 159r34 195r34 218r43 302r43
+17X10*fichier_manquant 28|139r34
+18X10*dossier_fichier_manquant 28|212r34 263r34 296r34
+19X10*impossible
+31V19*isegaux{boolean} 31>28 31>55 33r71 28|316b19 319l14 319t21
+31r28 a{7R15} 28|316b28 318r26
+31r55 b{7R15} 28|316b55 318r34
+33K18*sgf_arbre[21|7] 34r14 45r57 57r55 70r53 83r53 96r50 111r46 111r98 124r90
+. 136r87 150r88 163r88 178r49 193r122 204r58 28|20r41 22r40 24r57 33r55 35r26
+. 68r53 69r34 91r46 91r98 93r26 94r25 115r90 117r23 131r88 133r32 151r88
+. 153r32 171r58 176r53 179r34 200r49 201r32 202r26 203r26 236r50 238r26 252r87
+. 253r26 286r122 287r33 288r26
+45U20*formatage_disque 45=38 28|24b20 31l14 31t30
+45p38 Abr_total{21|9P15[33]} 28|24b38 29m38 30m19
+57U20*repertoire_travail 57>40 57>73 28|33b20 66l14 66t32
+57p40 Abr_total{21|9P15[33]} 28|33b40 39r48 40r36 51r67
+57r73 nom{13|88R9} 28|33b73 38r28
+70U20*creation_fichier 70>38 70>71 70>99 28|68b20 89l14 89t30
+70p38 Abr_total{21|9P15[33]} 28|68b38 80r50
+70r71 nom{13|88R9} 28|68b71 73r28
+70r99 nom_fichier{13|88R9} 28|68b98 75r28
+83U20*creation_dossier 83>38 83>71 83>99 28|176b20 198l14 198t30
+83p38 Abr_total{21|9P15[33]} 28|176b38 188r50
+83r71 nom{13|88R9} 28|176b71 181r28
+83r99 nom_dossier{13|88R9} 28|176b99 183r28
+96V19*taille_fichier{integer} 96>35 96>68 96>96 28|236b19 249l14 249t28
+96p35 Abr_total{21|9P15[33]} 28|236b35 241r49
+96r68 nom{13|88R9} 28|236b68 240r28
+96i96 Taille{integer} 28|236b96 245r46
+111V19*navigation{21|9P15[33]} 111>31 111>64 28|91b19 113l14 113t24
+111p31 Abr_total{21|9P15[33]} 28|91b31 97r44 100r54 103r67
+111r64 nom{13|88R9} 28|91b64 96r28 106r80
+124U20*affichage_dossier_courant 124>47 124>75 28|115b20 127l14 127t39
+124r47 nom{13|88R9} 28|115b47 119r28
+124p75 Abr_total{21|9P15[33]} 28|115b75 120r46
+136U20*affichage_modif_droits 136>44 136>72 28|252b20 284l14 284t36
+136r44 nom{13|88R9} 28|252b44 259r28
+136p72 Abr_total{21|9P15[33]} 28|252b72 260r49
+150U20*suppression_fichier 150>41 150=69 28|131b20 149l14 149t33
+150r41 nom{13|88R9} 28|131b41 135r28
+150p69 Abr_total{21|9P15[33]} 28|131b69 136r55 143m57
+163U20*suppression_dossier 163>41 163=69 28|151b20 169l14 169t33
+163r41 nom{13|88R9} 28|151b41 155r28
+163p69 Abr_total{21|9P15[33]} 28|151b69 156r55 163m57
+178U20*deplacer 178=30 178>67 178>100 28|200b20 234l14 234t22
+178p30 Abr_total{21|9P15[33]} 28|200b30 209r55 215r58 222r82 227m66
+178r67 nom_cible{13|88R9} 28|200b67 208r28
+178r100 dossier_cible{13|88R9} 28|200b100 214r37
+193U20*copie_dossier_fichier 193>43 193>71 193>107 28|286b20 313l14 313t35
+193r43 nom{13|88R9} 28|286b43 292r28
+193r71 destination{13|88R9} 28|286b71 298r37
+193p107 Abr_total{21|9P15[33]} 28|286b107 293r50 299r58 305r68
+204U20*afficher_arborescence 204>43 28|171b20 174l14 174t35
+204p43 Abr_total{21|9P15[33]} 28|171b43 173r32
+X 28 sgf.adb
+12U20 affiche_sgf_string 12b20 12>40 15l14 15t32 20r87 22r81
+12r40 e{27|7R15} 14r38
+17K18 Pile_gen[25|6] 18r14 36r26
+20U20 afficher_fils[21|164] 123s28
+22U20 afficher_gen[21|103] 173s19
+25r19 v{27|7R15} 27m19 28m19 30r58
+34r19 v{27|7R15} 38m19 42r58 45r51 48m37 48r37 50r50 52r67 59r31 62m28 63r42
+35p19 temp{21|9P15[27|33]} 40m28 41m28 41r58 43r57 47r56 48r63 51m37
+36r19 pile{25|13R15[17]} 44m51 44r51 49m50 49r50 58r44 62m50 62r50
+69p19 temp1{21|9P15[27|33]} 79m19 85m56 85r56
+69p26 temp2{21|9P15[27|33]} 80m19 83r48 84m56 84r56
+70r19 v{27|7R15} 75m19 76m19 77m19 78m19 79r54
+71r19 a{27|7R15} 73m19 81r50
+92r19 v{27|7R15} 96m19 104r67
+93p19 temp{21|9P15[27|33]} 103m37 105r62 108r53
+94p19 res{21|9P15[27|33]} 108m46 112r26
+116r19 v{27|7R15} 119m19 121r46
+117p19 a{21|9P15[27|33]} 120m19 122r48 123r42
+132r19 v{27|7R15} 135m19 137r55 141m28 141r28 142r31 144r57
+133p19 temporaire{21|9P15[27|33]} 136m19 138r37 141r54
+152r19 v{27|7R15} 155m19 157r55 161m28 161r28 162r31 164r57
+153p19 temporaire{21|9P15[27|33]} 156m19 158r37 161r54
+177r19 v{27|7R15} 183m19 184m19 185m19 186m19 187r54
+178r19 a{27|7R15} 181m19 189r50
+179p19 temp1{21|9P15[27|33]} 187m19 193m56 193r56
+179p26 temp2{21|9P15[27|33]} 188m19 191r48 192m56 192r56
+201p19 arbre_temp{21|9P15[27|33]} 209m19 211r44 221r67 222m46 223r107 225m74
+. 225r74
+202p19 dest{21|9P15[27|33]} 215m28 217r53 231m56 231r56
+203p19 temp{21|9P15[27|33]} 220m37 224m74 224r74 232m56 232r56
+204r19 a{27|7R15} 208m19 210r55 220r71 228r66
+205r19 v{27|7R15} 214m28 216r58
+237r19 v{27|7R15} 240m19 242r49 243m19 243r19 244r22 245r35
+238p19 temp{21|9P15[27|33]} 241m19 243r45
+253p19 temp{21|9P15[27|33]} 260m19 262r44 265r54
+254r19 v{27|7R15} 259m19 261r49 265m28 265r28 266r42 266r68 266r101 272r31
+. 275m37 276r34 279m37
+255r19 new_droits{13|88R9} 274m37 275r49 278m37 279r49
+256a19 modif{string} 270m28 271r22 281r25
+257i19 longueur_modif{integer} 270m34
+287p19 temp{21|9P15[27|33]} 304m37 307m65 307r65 310m65 310r65
+287p25 temp1{21|9P15[27|33]} 293m19 295r44 305m37 306r86 308m65 308r65
+288p19 dest{21|9P15[27|33]} 299m28 301r53 309m65 309r65
+289r19 a{27|7R15} 292m19 294r50 304r61
+290r19 v{27|7R15} 298m28 300r58
+X 29 system.ads
+67M9*Address
+X 40 s-memory.ads
+53V13*Alloc{29|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{29|67M9} 105i<c,__gnat_realloc>22
+X 48 s-stalib.adb
+89U14 Break_Start 90i<c,__gnat_break_start>22
+

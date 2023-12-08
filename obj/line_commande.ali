@@ -1,0 +1,226 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U line_commande%b	line_commande.adb	45ee9441 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W sgf%s			sgf.adb			sgf.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U line_commande%s	line_commande.ads	c9b147a6 EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W sgf%s			sgf.adb			sgf.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-charac.ads		20210520051127 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210520051127 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051127 bf4f806b ada.finalization%s
+D a-flteio.ads		20210520051127 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20210520051127 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-strmap.ads		20210520051128 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20210520051128 03325227 ada.strings.unbounded%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051129 fcca4daa ada.text_io.float_io%s
+D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D arbre.ads		20230128125930 e5f22709 arbre%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D line_commande.ads	20230129100247 dcb9b623 line_commande%s
+D line_commande.adb	20230131213958 356ac88e line_commande%b
+D sgf.ads		20230131214539 163aa3a2 sgf%s
+D system.ads		20210520051134 a2da961d system%s
+D s-atocou.ads		20210520051131 b45c2d8d system.atomic_counters%s
+D s-conca3.ads		20210520051131 0b705ca5 system.concat_3%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-finmas.ads		20210520051131 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051131 4ff27390 system.finalization_root%s
+D s-imagei.ads		20210520051132 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051132 bdb6f5ec system.img_int%s
+D s-memory.ads		20210520051132 597d6634 system.memory%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-pooglo.ads		20210520051133 ede33ef8 system.pool_global%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stalib.adb		20210520051133 977290bf system.standard_library%b
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051133 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20210520051133 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [terminal line_commande 17 20 none]
+G c Z s b [commande_line line_commande 27 20 none]
+G r c none [terminal line_commande 17 20 none] [formatage_disque sgf 45 20 none]
+G r c none [terminal line_commande 17 20 none] [creation_dossier sgf 83 20 none]
+G r c none [terminal line_commande 17 20 none] [creation_fichier sgf 70 20 none]
+G r c none [terminal line_commande 17 20 none] [suppression_fichier sgf 150 20 none]
+G r c none [terminal line_commande 17 20 none] [deplacer sgf 178 20 none]
+G r c none [terminal line_commande 17 20 none] [affichage_dossier_courant sgf 124 20 none]
+G r c none [terminal line_commande 17 20 none] [afficher_arborescence sgf 204 20 none]
+G r c none [terminal line_commande 17 20 none] [repertoire_travail sgf 57 20 none]
+G r c none [terminal line_commande 17 20 none] [navigation sgf 111 19 none]
+G r c none [terminal line_commande 17 20 none] [taille_fichier sgf 96 19 none]
+G r c none [terminal line_commande 17 20 none] [suppression_dossier sgf 163 20 none]
+G r c none [terminal line_commande 17 20 none] [copie_dossier_fichier sgf 193 20 none]
+G r c none [terminal line_commande 17 20 none] [affichage_modif_droits sgf 136 20 none]
+G r c none [commande_line line_commande 27 20 none] [creation_dossier sgf 83 20 none]
+G r c none [commande_line line_commande 27 20 none] [creation_fichier sgf 70 20 none]
+G r c none [commande_line line_commande 27 20 none] [suppression_fichier sgf 150 20 none]
+G r c none [commande_line line_commande 27 20 none] [deplacer sgf 178 20 none]
+G r c none [commande_line line_commande 27 20 none] [affichage_dossier_courant sgf 124 20 none]
+G r c none [commande_line line_commande 27 20 none] [afficher_arborescence sgf 204 20 none]
+G r c none [commande_line line_commande 27 20 none] [repertoire_travail sgf 57 20 none]
+G r c none [commande_line line_commande 27 20 none] [navigation sgf 111 19 none]
+G r c none [commande_line line_commande 27 20 none] [taille_fichier sgf 96 19 none]
+G r c none [commande_line line_commande 27 20 none] [suppression_dossier sgf 163 20 none]
+G r c none [commande_line line_commande 27 20 none] [copie_dossier_fichier sgf 193 20 none]
+G r c none [commande_line line_commande 27 20 none] [affichage_modif_droits sgf 136 20 none]
+X 1 ada.ads
+16K9*Ada 20e8 23|3r6 3r33 24|3r6 3r23 4r6 4r31 5r6 5r33 6r6 6r29
+X 6 a-flteio.ads
+20K13*Float_Text_IO[17|46] 24|6w10 6r33
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[18|46] 24|4w10 4r35
+X 10 a-string.ads
+16K13*Strings 35e16 23|3r10 3r37 24|5r10 5r37
+X 13 a-strunb.ads
+83K21*Unbounded 765e26 23|3w18 3r45 24|5w18 5r45
+88R9*Unbounded_String<5|43R9> 744e15 24|58r25 59r26
+104V13*To_Unbounded_String{88R9} 24|63s35 65s36 71s35 73s36 79s35 84s35 86s36
+. 92s35 100s35 106s35 111s35 120s35 125s35 127s36 133s35 139s35
+117V13*To_String{string} 24|117s37
+X 16 a-textio.ads
+58K13*Text_IO 725e16 24|3w10 3r27
+262U14*New_Line 24|23s19 40s19 52s19 54s19 103s28 136s28 142s28 143s28 145s28
+463U14*Put 24|42s28
+479U14*Get_Line 24|43s28
+493V13*Get_Line{string} 24|63s55 65s56 71s55 73s56 79s55 84s55 86s56 92s55
+. 100s55 106s55 111s55 120s55 125s55 127s56 133s55 139s55
+506U14*Put_Line 24|25s19 26s19 27s19 28s19 29s19 30s19 31s19 32s19 33s19
+. 34s19 35s19 36s19 37s19 38s19 39s19 53s19 62s28 64s28 70s28 72s28 78s28
+. 83s28 85s28 91s28 93s28 99s28 105s28 110s28 112s28 117s28 119s28 124s28
+. 126s28 132s28 138s28 147s28
+X 18 a-tiinio.ads
+59U14*Get 24|113s28[7|18]
+X 20 arbre.ads
+9P15*arbre 24|11r25[25|33] 12r25[25|33] 21r34[25|33]
+X 23 line_commande.ads
+6K9*line_commande 31l5 31e18 24|9b14 156l5 156t18
+17U20*terminal 24|16b20 55l14 55t22
+27U20*commande_line 27>35 27>58 24|47s37 57b20 151l14 151t27
+27a35 commande{string} 24|47r51 57b35 61r22 61r31 61r47 69r25 69r34 69r50
+. 77r25 77r34 77r50 82r25 82r34 82r50 90r25 90r34 90r50 96r25 96r34 96r50
+. 98r25 98r34 98r50 104r25 104r34 104r50 109r25 109r34 109r50 118r25 118r34
+. 118r50 123r25 123r34 123r50 131r25 131r34 131r50 137r25 137r34 137r50
+27i58 longueur_commande{integer} 24|48r51 57b58
+X 24 line_commande.adb
+11p10 b1{20|9P15[25|33]} 24m36 24r36 66r60 74r60 81m61 81r61 87m54 87r54
+. 95r67 97r50 101r60 107r58 114r70 122m61 122r61 130r65 135r64 140r58
+12p10 b2{20|9P15[25|33]} 107m28 140m28 144r63
+13i10 taille{integer} 113m32 116r70
+14i10 res_taille{integer} 114m28 117r77
+18a19 commande{string} 43m37 44r31 47r72
+19b19 fini{boolean} 41r29 45m37 49m37
+20i19 longueur_commande{integer} 43m46 48r72
+21p19 a1{20|9P15[25|33]}
+58r19 nom{13|88R9} 63m28 68r60 71m28 76r60 79m28 80r61 84m28 88r54 92m28
+. 94r67 100m28 102r60 106m28 108r58 111m28 115r70 117r47 120m28 121r61 125m28
+. 128r65 133m28 134r64 139m28 141r58
+59r19 nom1{13|88R9} 65m28 67r60 73m28 75r60 86m28 89r54 127m28 129r65
+X 25 sgf.ads
+5K9*SGF 23|4w6 4r15 24|7w6 7r15 25|208e8
+33K18*sgf_arbre[20|7] 24|11r15 12r15 21r24
+45U20*formatage_disque 24|24s19
+57U20*repertoire_travail 24|101s28
+57p40 Abr_total{20|9P15[33]} 24|101r47
+57r73 nom{13|88R9} 24|102r47
+70U20*creation_fichier 24|74s28
+70p38 Abr_total{20|9P15[33]} 24|74r45
+70r71 nom{13|88R9} 24|75r45
+70r99 nom_fichier{13|88R9} 24|76r45
+83U20*creation_dossier 24|66s28
+83p38 Abr_total{20|9P15[33]} 24|66r45
+83r71 nom{13|88R9} 24|67r45
+83r99 nom_dossier{13|88R9} 24|68r45
+96V19*taille_fichier{integer} 24|114s42
+96p35 Abr_total{20|9P15[33]} 24|114r57
+96r68 nom{13|88R9} 24|115r57
+96i96 Taille{integer} 24|116r57
+111V19*navigation{20|9P15[33]} 24|107s34 140s34
+111p31 Abr_total{20|9P15[33]} 24|107r45 140r45
+111r64 nom{13|88R9} 24|108r45 141r45
+124U20*affichage_dossier_courant 24|94s28
+124r47 nom{13|88R9} 24|94r54
+124p75 Abr_total{20|9P15[33]} 24|95r54
+136U20*affichage_modif_droits 24|134s28
+136r44 nom{13|88R9} 24|134r51
+136p72 Abr_total{20|9P15[33]} 24|135r51
+150U20*suppression_fichier 24|80s28
+150r41 nom{13|88R9} 24|80r48
+150p69 Abr_total{20|9P15[33]} 24|81r48
+163U20*suppression_dossier 24|121s28
+163r41 nom{13|88R9} 24|121r48
+163p69 Abr_total{20|9P15[33]} 24|122r48
+178U20*deplacer 24|87s28
+178p30 Abr_total{20|9P15[33]} 24|87r37
+178r67 nom_cible{13|88R9} 24|88r37
+178r100 dossier_cible{13|88R9} 24|89r37
+193U20*copie_dossier_fichier 24|128s28
+193r43 nom{13|88R9} 24|128r50
+193r71 destination{13|88R9} 24|129r50
+193p107 Abr_total{20|9P15[33]} 24|130r50
+204U20*afficher_arborescence 24|97s28 144s28
+204p43 Abr_total{20|9P15[33]} 24|144r50
+X 26 system.ads
+67M9*Address
+X 36 s-memory.ads
+53V13*Alloc{26|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{26|67M9} 105i<c,__gnat_realloc>22
+X 44 s-stalib.adb
+89U14 Break_Start 90i<c,__gnat_break_start>22
+

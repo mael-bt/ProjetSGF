@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/mael/Bureau/1A SN N7/cours de programmation n7/ProjetsADA/ProjetSGF/default.gpr
+20230123135151 0890d5beee382d13af4fab43544f0254
+[BOUND OBJECT FILES]
+/home/mael/Bureau/1A SN N7/cours de programmation n7/ProjetsADA/ProjetSGF/obj/arbre.o
+/home/mael/Bureau/1A SN N7/cours de programmation n7/ProjetsADA/ProjetSGF/obj/pile_generique.o
+/home/mael/Bureau/1A SN N7/cours de programmation n7/ProjetsADA/ProjetSGF/obj/sgf.o
+/home/mael/Bureau/1A SN N7/cours de programmation n7/ProjetsADA/ProjetSGF/obj/line_commande.o
+/home/mael/Bureau/1A SN N7/cours de programmation n7/ProjetsADA/ProjetSGF/obj/menu_sgf.o
+/home/mael/Bureau/1A SN N7/cours de programmation n7/ProjetsADA/ProjetSGF/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/mael/Bureau/1A SN N7/cours de programmation n7/ProjetsADA/ProjetSGF/obj/
+-L/home/mael/Bureau/1A SN N7/cours de programmation n7/ProjetsADA/ProjetSGF/obj/
+-L/home/mael/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/home/mael/opt/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl
